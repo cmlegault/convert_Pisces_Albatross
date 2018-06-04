@@ -6,3 +6,5 @@ Conduct your usual SAGA analysis applying Bigelow to Albatross calibration facto
 
 ### Notes
 This code relies on SAGA conducting all the checks to ensure that no holes appear in the data, for example a length without a calibration. Multiple years can be run, only the 2017 fall survey will have data modified, so a continuous time series output can be created. 
+
+Changing the survey vessel from PC to HB in the Station file does not fix the problem because Survan assumes the conversions have already been applied. Survan does not check the survey vessel when run. 
